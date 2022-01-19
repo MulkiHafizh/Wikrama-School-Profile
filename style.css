@@ -1,0 +1,268 @@
+* { padding:0;
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  height: 72.5px;
+  background-color: white;
+  font-weight: 150;
+  text-decoration: none;
+  position: fixed;
+  width: 100%;
+}
+
+
+header h1{
+  display: inline-block;
+  padding: 14px 24px;
+  text-transform: uppercase;
+} 
+
+header h1 a{
+  transition: .3s;
+  color: black;
+}
+
+header ul{
+  float: right;
+}
+header ul li{
+  padding: 24px;
+  display: inline-block;
+}
+
+header ul li a{
+  transition: .3s;
+  color: black;
+  font-weight: 600;
+}
+
+header ul li a:hover{
+  color: #FF3333
+}
+header img{
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+  margin-left: 50px;
+  float: left;
+}
+
+a{    
+  text-decoration: none;
+}
+
+#landing { 
+  transition: 1s;
+  width: 100%;
+  left:0;
+  background-image: url(img/wikrama.jpg);
+  background-attachment: fixed;
+  padding-bottom: 200px;
+  padding-top: 250px;
+  color: white;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000 ;
+  text-align: center;
+  margin-bottom: 230px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+section h1{
+  margin-left: 30px;
+  padding-bottom: 20px;
+}
+
+section p{
+  margin-left: 30px;
+  font-weight: 300;
+  margin-right: 30px;
+}
+
+section img{
+  width: 100%;
+  max-width:500px;
+  height: auto;
+  border-radius: 1%;
+}
+
+#sejarah p{
+  text-align: justify;
+}
+
+.content1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display:grid;
+  grid-template-columns: 20% auto;
+  background-color: rgb(233, 233, 233);
+}
+
+.text1 p{
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+  text-align: left;
+}
+
+.content2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display:grid;
+  grid-template-columns: 70% auto;
+}
+
+.text2 p{
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+  text-align: left;
+}
+
+.content3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display:grid;
+  grid-template-columns: 20% auto;
+  background-color: rgb(233, 233, 233);
+}
+
+.text3 p{
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+  text-align: left;
+}
+
+.content4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display:grid;
+  grid-template-columns: 70% auto;
+}
+
+.text4 p{
+  display: flex;
+  align-items: left;
+  margin-right: 10%;
+  text-align: left;
+}
+
+#sejarah, #matrik, #kantin, #perpus, #kompetensi {
+  padding-top: 100px;
+  margin-top: -100px;
+  margin-bottom: 100px;
+}
+
+.footer-main {
+  padding: 24px 60px;
+  background-color: rgb(233, 233, 233);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 10px;
+  margin: 0 auto;
+  max-width: 100%;
+  justify-items: center;
+}
+
+.footer-grid p {
+  margin: 10px 0;
+}
+
+.footer-grid {
+  margin: 10px 0;
+}
+
+@media (max-width:1000px){ 
+  header ul{
+      display: none;
+  }
+
+  header {
+  width: 100%;
+  }
+
+  header img{
+    margin-left: 47.5%;
+    padding-top: 8px;
+  }
+
+  .headtext h1{
+    display: none;
+  }
+
+  #landing{
+    padding-bottom: 160px;
+  }
+
+  #matrik p, #kantin p, #perpus p, #kompetensi p{
+    font-size: medium;
+  }
+
+  #matrik h1, #kantin h1, #perpus h1, #kompetensi h1{
+    font-size: small;
+
+  }
+  .content1 {
+    display:grid;
+    grid-template-columns: 40% auto;
+  }
+
+  .content1 img{
+    padding-top: 80px;
+  }
+
+  .content2 {
+    display:grid;
+    grid-template-columns: 60% auto;
+  }
+
+  .content2 img{
+    padding-top: 80px;
+  }
+
+  .content3 {
+    display:grid;
+    grid-template-columns: 40% auto;
+  }
+
+  .content3 img{
+    padding-top: 80px;
+  }
+  .content4 {
+    display:grid;
+    grid-template-columns: 60% auto;
+  }
+
+  .content4 img{
+    padding-top: 80px;
+  }
+
+  .footer-main {
+    font-size: xx-small;
+  }
+  
+
+  .footer-grid {
+    padding: 0 0 0 0;
+  }
+
+
+}
+
